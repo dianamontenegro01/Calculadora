@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.screen {
+    background-color: blueviolet;
+    padding: auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.buttoos {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+}
+
+.button {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+    
+}
